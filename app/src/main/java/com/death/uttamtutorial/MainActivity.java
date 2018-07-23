@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                 simpleListAdapter = new SimpleListAdapter(dataItems,MainActivity.this);
                 expandableListView.setAdapter(simpleListAdapter);
                 Log.e("Data","data");
+
+            //comment is added to the code
+
             }
 
             @Override
