@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ff0943"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/category_icon"
+        android:padding="12dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:padding="8dp"
+        android:id="@+id/groupname"
+        android:text="Hello"
+        android:drawableEnd="@drawable/ic_details_black_24dp"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+</LinearLayout>
